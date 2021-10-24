@@ -1,0 +1,74 @@
+前言
+本文主要介绍 $LaTeX$，$text{MathJax}$ 语法的字体美化，包括 字体种类，字体大小，字体特效，字体颜色 等。
+
+字体种类设置
+统一表示方法：字体种类{文本}
+
+字体种类	表示方法	预览
+默认字体	ABCDEFGHIJKLMNOPQRSTUVWXYZ	$ABCDEFGHIJKLMNOPQRSTUVWXYZ$
+abcdefghijklmnopqrstuvwxyz	$abcdefghijklmnopqrstuvwxyz$
+数学斜体	mit{ABCDEFGHIJKLMNOPQRSTUVWXYZ}	$mit{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$
+mit{abcdefghijklmnopqrstuvwxyz}	$mit{abcdefghijklmnopqrstuvwxyz}$
+意大利体	it{ABCDEFGHIJKLMNOPQRSTUVWXYZ}	$it{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$
+it{abcdefghijklmnopqrstuvwxyz}	$it{abcdefghijklmnopqrstuvwxyz}$
+罗马体	rm{ABCDEFGHIJKLMNOPQRSTUVWXYZ}	$rm{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$
+rm{abcdefghijklmnopqrstuvwxyz}	$rm{abcdefghijklmnopqrstuvwxyz}$
+花体	cal{ABCDEFGHIJKLMNOPQRSTUVWXYZ}	$cal{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$
+cal{abcdefghijklmnopqrstuvwxyz}	$cal{abcdefghijklmnopqrstuvwxyz}$
+打字机体	tt{ABCDEFGHIJKLMNOPQRSTUVWXYZ}	$tt{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$
+tt{abcdefghijklmnopqrstuvwxyz}	$tt{abcdefghijklmnopqrstuvwxyz}$
+粗体	bf{ABCDEFGHIJKLMNOPQRSTUVWXYZ}	$bf{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$
+bf{abcdefghijklmnopqrstuvwxyz}	$bf{abcdefghijklmnopqrstuvwxyz}$
+黑板粗体	Bbb{ABCDEFGHIJKLMNOPQRSTUVWXYZ}	$Bbb{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$
+Bbb{abcdefghijklmnopqrstuvwxyz}	$Bbb{abcdefghijklmnopqrstuvwxyz}$
+等线体	sf{ABCDEFGHIJKLMNOPQRSTUVWXYZ}	$sf{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$
+sf{abcdefghijklmnopqrstuvwxyz}	$sf{abcdefghijklmnopqrstuvwxyz}$
+旧德式体	frak{ABCDEFGHIJKLMNOPQRSTUVWXYZ}	$frak{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$
+frak{abcdefghijklmnopqrstuvwxyz}	$frak{abcdefghijklmnopqrstuvwxyz}$
+手写体	scr{ABCDEFGHIJKLMNOPQRSTUVWXYZ}	$scr{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$
+scr{abcdefghijklmnopqrstuvwxyz}	$scr{abcdefghijklmnopqrstuvwxyz}$
+字体大小设置
+统一表示方法：字体大小{文本}
+
+字体大小	字宽 (pt)	表示方法	预览
+小初	$36$ pts	Huge{小初字体(36pts)}	$Huge{小初字体 (36pts)}$
+一号	$27.5$ pts	huge{一号字体(27.5pts)}	$huge{一号字体 (27.5pts)}$
+二号	$21$ pts	LARGE{二号字体(21pts)}	$LARGE{二号字体 (21pts)}$
+三号	$15.75$ pts	Large{三号字体(15.75pts)}	$Large{三号字体 (15.75pts)}$
+四号	$13.75$ pts	large{四号字体(13.75pts)}	$large{四号字体 (13.75pts)}$
+小四	$12$ pts	normalsize{小四字体(12pts)}	$normalsize{小四字体 (12pts)}$
+默认	$12$ pts	默认字体(12pts)	$ 默认字体 (12pts)$
+五号	$10.5$ pts	small{五号字体(10.5pts)}	$small{五号字体 (10.5pts)}$
+六号	$7.875$ pts	scriptsize{六号字体(7.875pts)}	$scriptsize{六号字体 (7.875pts)}$
+七号	$5.25$ pts	tiny{七号字体(5.25pts)}	$tiny{七号字体 (5.25pts)}$
+字体特效设置
+字体特效	表示方法	预览
+加粗	bf{加粗}	$bf{加粗}$
+下划线	underline{下划线}​	$underline{下划线}$
+使用前声名删除线	require{enclose}	$require{enclose}$
+删除线	enclose{horizontalstrike}{删除线}	$enclose{horizontalstrike}{删除线}$
+enclose{verticalstrike}{删\除\线}	$enclose{verticalstrike}{删\除\线}$
+enclose{updiagonalstrike}{删除线}	$enclose{updiagonalstrike}{删除线}$
+enclose{downdiagonalstrike}{删除线}	$enclose{downdiagonalstrike}{删除线}$
+enclose{updiagonalstrike,downdiagonalstrike}{删除线}	$enclose{updiagonalstrike,downdiagonalstrike}{删除线}$
+enclose{horizontalstrike,verticalstrike}{; 删\删除线\; 线}	$enclose{horizontalstrike,verticalstrike}{; 删\删除线\; 线}$
+enclose{updiagonalstrike,downdiagonalstrike,horizontalstrike,verticalstrike}{删除线}	$enclose{updiagonalstrike,downdiagonalstrike,horizontalstrike,verticalstrike}{删除线}$
+补充：删除线可以多种形式搭配使用
+字体颜色设置
+统一表示方法：color{颜色}{文本}
+
+颜色	表示方法	预览
+黑色 (black)	color{black}{黑色(text{black})}	$color{black}{黑色 (text{black})}$
+红色 (red)	color{red}{红色(text{red})}	$color{red}{红色 (text{red})}$
+黄色 (yellow)	color{yellow}{黄色(text{yellow})}	$color{yellow}{黄色 (text{yellow})}$
+蓝色 (blue)	color{blue}{蓝色(text{blue})}	$color{blue}{蓝色 (text{blue})}$
+灰色 (grey)	color{grey}{灰色(text{grey})}	$color{grey}{灰色 (text{grey})}$
+白色 (white)	color{white}{白色(text{white})}	$color{white}{白色 (text{white})}$
+绿色 (green)	color{green}{绿色(text{green})}	$color{green}{绿色 (text{green})}$
+紫色 (green)	color{purple}{紫色(text{purple})}	$color{purple}{紫色 (text{purple})}$
+紫红色 (maroon)	color{maroon}{紫红色(text{maroon})}	$color{maroon}{紫红色 (text{maroon})}$
+橄榄绿 (olive)	color{olive}{橄榄绿(text{olive})}	$color{olive}{橄榄绿 (text{olive})}$
+蓝绿色 (teal)	color{teal}{蓝绿色(text{teal})}	$color{teal}{蓝绿色 (text{teal})}$
+银色 (silver)	color{silver}{银色(text{silver})}	$color{silver}{银色 (text{silver})}$
+浅绿色 (lime)	color{lime}{浅绿色(text{lime})}	$color{lime}{浅绿色 (text{lime})}$
+藏青色 (navy)	color{navy}{藏青色(text{navy})}	$color{navy}{藏青色 (text{navy})}$
